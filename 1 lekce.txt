@@ -1,0 +1,90 @@
+1. Seznámení
+- mé jméno nebo pøezdívka? 
+- do jaké chodím tøídy?
+- co bych chtìl dìlat, až budou dospìlý?
+- co již umím na poèítaèi?
+- co nejradìji dìlám na poèítaèi?
+- jaká je moje oblíbená hra?
+
+2. Pravidla kroužku
+- navzájem si pomáhájte a spolupracujte jako jeden tým
+- všichni si tykáme
+- ptejte se, pokud nìco není jasné
+- všichni na sebe poèkáme pøed uèebnou pøed zahájením hodiny
+- v uèebnì je zakázáno jíst
+- pít mùžete, ale pouze pøed uèebnou
+- volnì mùžete odejít na záchod, ale musíte mi øíct, kam jdete
+- nevyrušujte, pokud nìkdo mluví ke všem, ale mùžete si navzajem radit a pomáhat
+- ptejte se mì, pokud nìco nefunguje a nesnažte si to sami nastavit èi opravit
+
+3. Motivace
+- co si myslíte, že je programování?
+- proè je dobré se nauèit programovat?
+
+4. Struktura kroužku
+- èást teorie a povídání
+- èást praxe a programování
+- postupnì budeme programovat hru hádání èísel, kterou na konci kroužku dokonèíte a zahrajete si
+- budeme se uèit základy technické angliètiny
+- budeme opakovat, co jsme se nauèili na pøedchozích hodinách
+
+5. Software
+- Java
+- https://www.java.com/en/download/
+- BlueJ
+- https://www.bluej.org/
+
+6. Ukázka hry
+import java.util.Scanner;
+
+public class Hadanka {
+    public static void main(String[] args) {
+        
+        int tajneCislo = 15;
+        int hadaneCislo;
+    
+        Scanner klavesnice = new Scanner(System.in);
+        do {
+            hadaneCislo = klavesnice.nextInt();
+            
+            if (hadaneCislo == tajneCislo) {
+                System.out.println("Uhádl jsi!");
+            } else if (hadaneCislo > tajneCislo) {
+                System.out.println("Moc vysoké èíslo.");
+            } else {
+                System.out.println("Moc malé èíslo.");
+            }
+        } while (hadaneCislo != tajneCislo);
+    }
+}
+
+7. Pøihlášení na poèítaèe
+- kontrola dostupného software
+
+8. První aplikace
+- tvorba nového projektu v BlueJ
+- uložení projektu na ploše
+
+public class PrvniAplikace
+{
+    public static void main(String[] args) {
+        System.out.println("Ahoj, já jsem malý programátor!");
+    }
+}
+
+- první spuštìní
+- popis vytvoøeného programu
+- možná teï nìkteré vìci nebudou dávat smysl, ale po nìkolika nasledujících lekcích by to mìlo být jasné
+- co je class
+- co je funkce main
+- co je standardní výstup
+
+9. Cvièení
+- Pomocí funkce println pozdravte svého souseda
+- Pomocí fuknce println pozdravte všechny úèastníky kroužku
+
+10. Jak funguje Java
+- ukázka na první vytvoøené aplikaci
+- když v BlueJ vyberu create new, tak se vytvoøí nový soubor .java, který je èitelný pro nás, programátory
+- když v BlueJ vyberu compile, tak se vytvoøí nový soubor .class, který je èitelný pro poèítaè
+- když tuto compiled aplikaci spustím, tak se pøíkazy zapsané v .class souborech provedou na poèítaèi

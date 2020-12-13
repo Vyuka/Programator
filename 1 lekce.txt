@@ -1,32 +1,32 @@
-1. Seznámení
-- mé jméno nebo pøezdívka? 
-- do jaké chodím tøídy?
-- co bych chtìl dìlat, a budou dospìlı?
-- co ji umím na poèítaèi?
-- co nejradìji dìlám na poèítaèi?
-- jaká je moje oblíbená hra?
+1. SeznÃ¡menÃ­
+- mÃ© jmÃ©no nebo pÅ™ezdÃ­vka? 
+- do jakÃ© chodÃ­m tÅ™Ã­dy?
+- co bych chtÄ›l dÄ›lat, aÅ¾ budou dospÄ›lÃ½?
+- co jiÅ¾ umÃ­m na poÄÃ­taÄi?
+- co nejradÄ›ji dÄ›lÃ¡m na poÄÃ­taÄi?
+- jakÃ¡ je moje oblÃ­benÃ¡ hra?
 
-2. Pravidla krouku
-- navzájem si pomáhájte a spolupracujte jako jeden tım
-- všichni si tykáme
-- ptejte se, pokud nìco není jasné
-- všichni na sebe poèkáme pøed uèebnou pøed zahájením hodiny
-- v uèebnì je zakázáno jíst
-- pít mùete, ale pouze pøed uèebnou
-- volnì mùete odejít na záchod, ale musíte mi øíct, kam jdete
-- nevyrušujte, pokud nìkdo mluví ke všem, ale mùete si navzajem radit a pomáhat
-- ptejte se mì, pokud nìco nefunguje a nesnate si to sami nastavit èi opravit
+2. Pravidla krouÅ¾ku
+- navzÃ¡jem si pomÃ¡hÃ¡jte a spolupracujte jako jeden tÃ½m
+- vÅ¡ichni si tykÃ¡me
+- ptejte se, pokud nÄ›co nenÃ­ jasnÃ©
+- vÅ¡ichni na sebe poÄkÃ¡me pÅ™ed uÄebnou pÅ™ed zahÃ¡jenÃ­m hodiny
+- v uÄebnÄ› je zakÃ¡zÃ¡no jÃ­st
+- pÃ­t mÅ¯Å¾ete, ale pouze pÅ™ed uÄebnou
+- volnÄ› mÅ¯Å¾ete odejÃ­t na zÃ¡chod, ale musÃ­te mi Å™Ã­ct, kam jdete
+- nevyruÅ¡ujte, pokud nÄ›kdo mluvÃ­ ke vÅ¡em, ale mÅ¯Å¾ete si navzajem radit a pomÃ¡hat
+- ptejte se mÄ›, pokud nÄ›co nefunguje a nesnaÅ¾te si to sami nastavit Äi opravit
 
 3. Motivace
-- co si myslíte, e je programování?
-- proè je dobré se nauèit programovat?
+- co si myslÃ­te, Å¾e je programovÃ¡nÃ­?
+- proÄ je dobrÃ© se nauÄit programovat?
 
-4. Struktura krouku
-- èást teorie a povídání
-- èást praxe a programování
-- postupnì budeme programovat hru hádání èísel, kterou na konci krouku dokonèíte a zahrajete si
-- budeme se uèit základy technické angliètiny
-- budeme opakovat, co jsme se nauèili na pøedchozích hodinách
+4. Struktura krouÅ¾ku
+- ÄÃ¡st teorie a povÃ­dÃ¡nÃ­
+- ÄÃ¡st praxe a programovÃ¡nÃ­
+- postupnÄ› budeme programovat hru hÃ¡dÃ¡nÃ­ ÄÃ­sel, kterou na konci krouÅ¾ku dokonÄÃ­te a zahrajete si
+- budeme se uÄit zÃ¡klady technickÃ© angliÄtiny
+- budeme opakovat, co jsme se nauÄili na pÅ™edchozÃ­ch hodinÃ¡ch
 
 5. Software
 - Java
@@ -34,7 +34,7 @@
 - BlueJ
 - https://www.bluej.org/
 
-6. Ukázka hry
+6. UkÃ¡zka hry
 import java.util.Scanner;
 
 public class Hadanka {
@@ -48,43 +48,36 @@ public class Hadanka {
             hadaneCislo = klavesnice.nextInt();
             
             if (hadaneCislo == tajneCislo) {
-                System.out.println("Uhádl jsi!");
+                System.out.println("UhÃ¡dl jsi!");
             } else if (hadaneCislo > tajneCislo) {
-                System.out.println("Moc vysoké èíslo.");
+                System.out.println("Moc vysokÃ© ÄÃ­slo.");
             } else {
-                System.out.println("Moc malé èíslo.");
+                System.out.println("Moc malÃ© ÄÃ­slo.");
             }
         } while (hadaneCislo != tajneCislo);
     }
 }
 
-7. Pøihlášení na poèítaèe
-- kontrola dostupného software
+7. PÅ™ihlÃ¡Å¡enÃ­ na poÄÃ­taÄe
+- kontrola dostupnÃ©ho software
 
-8. První aplikace
-- tvorba nového projektu v BlueJ
-- uloení projektu na ploše
+8. PrvnÃ­ aplikace
+- tvorba novÃ©ho projektu v BlueJ
+- uloÅ¾enÃ­ projektu na ploÅ¡e
 
 public class PrvniAplikace
 {
     public static void main(String[] args) {
-        System.out.println("Ahoj, já jsem malı programátor!");
+        System.out.println("Ahoj, jÃ¡ jsem malÃ½ programÃ¡tor!");
     }
 }
 
-- první spuštìní
-- popis vytvoøeného programu
-- moná teï nìkteré vìci nebudou dávat smysl, ale po nìkolika nasledujících lekcích by to mìlo bıt jasné
-- co je class
-- co je funkce main
-- co je standardní vıstup
+- prvnÃ­ spuÅ¡tÄ›nÃ­
+- popis vytvoÅ™enÃ©ho programu
+- moÅ¾nÃ¡ teÄ nÄ›kterÃ© vÄ›ci nebudou dÃ¡vat smysl, ale po nÄ›kolika nasledujÃ­cÃ­ch lekcÃ­ch by to mÄ›lo bÃ½t jasnÃ©
 
-9. Cvièení
-- Pomocí funkce println pozdravte svého souseda
-- Pomocí fuknce println pozdravte všechny úèastníky krouku
-
-10. Jak funguje Java
-- ukázka na první vytvoøené aplikaci
-- kdy v BlueJ vyberu create new, tak se vytvoøí novı soubor .java, kterı je èitelnı pro nás, programátory
-- kdy v BlueJ vyberu compile, tak se vytvoøí novı soubor .class, kterı je èitelnı pro poèítaè
-- kdy tuto compiled aplikaci spustím, tak se pøíkazy zapsané v .class souborech provedou na poèítaèi
+9. Jak funguje Java
+- ukÃ¡zka na prvnÃ­ vytvoÅ™enÃ© aplikaci
+- kdyÅ¾ v BlueJ vyberu create new, tak se vytvoÅ™Ã­ novÃ½ soubor .java, kterÃ½ je ÄitelnÃ½ pro nÃ¡s, programÃ¡tory
+- kdyÅ¾ v BlueJ vyberu compile, tak se vytvoÅ™Ã­ novÃ½ soubor .class, kterÃ½ je ÄitelnÃ½ pro poÄÃ­taÄ
+- kdyÅ¾ tuto compiled aplikaci spustÃ­m, tak se pÅ™Ã­kazy zapsanÃ© v .class souborech provedou na poÄÃ­taÄi

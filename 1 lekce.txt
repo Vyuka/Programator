@@ -65,8 +65,7 @@ public class Hadanka {
 - tvorba nového projektu v BlueJ
 - uložení projektu na ploše
 
-public class PrvniAplikace
-{
+public class PrvniAplikace {
     public static void main(String[] args) {
         System.out.println("Ahoj, já jsem malý programátor!");
     }

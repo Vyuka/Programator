@@ -1,0 +1,86 @@
+1. Materiály
+- https://github.com/Vyuka/Programator
+
+2. Opakování z minula
+
+public class PrvniAplikace {
+    public static void main(String[] args) {
+        System.out.println("Ahoj, já jsem malý programátor!");
+    }
+}
+
+3. Cvièení
+- pomocí funkce println pozdravte svého souseda
+- pomocí funkce println pozdravte všechny úèastníky kroužku
+
+4. Slovíèka
+- public
+- class
+- static
+- void
+- main
+- system
+- out
+- print
+- line
+
+5. Popis vytvoøeného programu
+- tøída
+- funkce (metoda)
+- funkce main
+- standardní výstup
+- blok kódu {}
+- ukonèení pøíkazù pomocí ;
+- formátování
+
+6. Klávesové zkratky
+- CTRL + A
+- CTRL + C
+- CTRL + V
+
+7. Promìnné a datové typy
+- jak ukládat data v pamìti?
+- poèítaè funguje binárnì (1 a 0)
+- potøebujeme znát velikost a co je to za data, jak s nìmi mùžeme nakládat (napø. sèítat, násobit)
+- dává smysl násobit nebo odeèítat vìty? 
+- int (integer) slouží k ukládání èísel od -2147483648 do 2147483647
+- String slouží k ukládání libovolnì dlouhého textu
+- existuje více datových typù, ale tyto nám budou zatím staèit
+- promìnná slouží k ukládání dat, je to pojmenováné oznaèení místa v pamìti poèítaèe s pøiøazeným datovým typem
+- nazývá se promìnná, protože její hodnota se mùže mìnit
+- používá se camelCase pro její pojmenování
+- datový typ se uvádí jen pøi prvním vytvoøení
+- pøi prvním vytvoøení se mùže pøiøadit i hodnota
+
+int cislo = 5;
+cislo = 7;
+System.out.println(cislo);
+
+int druheCislo;
+druheCislo = 5;
+System.out.println(druheCislo);
+
+String text = "Ahoj, já jsem malý programátor!";
+text = "Ahoj, já jsem programátor!";
+System.out.println(text);
+
+String veta;
+veta = "Ahoj všichni!";
+System.out.println(veta);
+
+8. Matematické operace
+- co mohu dìlat s èísly (int)
+- základní matematické operace + - * /
+- rozdíl mezi = a ==
+
+int x = 5;
+int y = 7;
+int vysledek = x + y;
+System.out.println(vysledek);
+
+9. Cvièení
+- seètìte èísla 5, 8 a 3 a výsledek zobrazte pomocí funkce println()
+- odeètìte èíslo 3 od èísla 9 a výsledek zobrazte pomocí funkce println()
+- vynásobte èísla 2, 3 a 5 a výsledek zobrazte pomocí funkce println()
+- vydìlte èíslo 24 èíslem 6 a výsledek zobrazte pomocí funkce println()
+ 

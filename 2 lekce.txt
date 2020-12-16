@@ -1,19 +1,19 @@
-1. Materiály
+1. MateriÃ¡ly
 - https://github.com/Vyuka/Programator
 
-2. Opakování z minula
+2. OpakovÃ¡nÃ­ z minula
 
 public class PrvniAplikace {
     public static void main(String[] args) {
-        System.out.println("Ahoj, já jsem malı programátor!");
+        System.out.println("Ahoj, jÃ¡ jsem malÃ½ programÃ¡tor!");
     }
 }
 
-3. Cvièení
-- pomocí funkce println pozdravte svého souseda
-- pomocí funkce println pozdravte všechny úèastníky krouku
+3. CviÄenÃ­
+- pomocÃ­ funkce println pozdravte svÃ©ho souseda
+- pomocÃ­ funkce println pozdravte vÅ¡echny ÃºÄastnÃ­ky krouÅ¾ku
 
-4. Slovíèka
+4. SlovÃ­Äka
 - public
 - class
 - static
@@ -24,33 +24,33 @@ public class PrvniAplikace {
 - print
 - line
 
-5. Popis vytvoøeného programu
-- tøída
+5. Popis vytvoÅ™enÃ©ho programu
+- tÅ™Ã­da
 - funkce (metoda)
 - funkce main
-- standardní vıstup
-- blok kódu {}
-- ukonèení pøíkazù pomocí ;
-- formátování
+- standardnÃ­ vÃ½stup
+- blok kÃ³du {}
+- ukonÄenÃ­ pÅ™Ã­kazÅ¯ pomocÃ­ ;
+- formÃ¡tovÃ¡nÃ­
 
-6. Klávesové zkratky
+6. KlÃ¡vesovÃ© zkratky
 - CTRL + A
 - CTRL + C
 - CTRL + V
 
-7. Promìnné a datové typy
-- jak ukládat data v pamìti?
-- poèítaè funguje binárnì (1 a 0)
-- potøebujeme znát velikost a co je to za data, jak s nìmi mùeme nakládat (napø. sèítat, násobit)
-- dává smysl násobit nebo odeèítat vìty? 
-- int (integer) slouí k ukládání èísel od -2147483648 do 2147483647
-- String slouí k ukládání libovolnì dlouhého textu
-- existuje více datovıch typù, ale tyto nám budou zatím staèit
-- promìnná slouí k ukládání dat, je to pojmenováné oznaèení místa v pamìti poèítaèe s pøiøazenım datovım typem
-- nazıvá se promìnná, protoe její hodnota se mùe mìnit
-- pouívá se camelCase pro její pojmenování
-- datovı typ se uvádí jen pøi prvním vytvoøení
-- pøi prvním vytvoøení se mùe pøiøadit i hodnota
+7. PromÄ›nnÃ© a datovÃ© typy
+- jak uklÃ¡dat data v pamÄ›ti?
+- poÄÃ­taÄ funguje binÃ¡rnÄ› (1 a 0)
+- potÅ™ebujeme znÃ¡t velikost a co je to za data, jak s nÄ›mi mÅ¯Å¾eme naklÃ¡dat (napÅ™. sÄÃ­tat, nÃ¡sobit)
+- dÃ¡vÃ¡ smysl nÃ¡sobit nebo odeÄÃ­tat vÄ›ty? 
+- int (integer) slouÅ¾Ã­ k uklÃ¡dÃ¡nÃ­ ÄÃ­sel od -2147483648 do 2147483647
+- String slouÅ¾Ã­ k uklÃ¡dÃ¡nÃ­ libovolnÄ› dlouhÃ©ho textu
+- existuje vÃ­ce datovÃ½ch typÅ¯, ale tyto nÃ¡m budou zatÃ­m staÄit
+- promÄ›nnÃ¡ slouÅ¾Ã­ k uklÃ¡dÃ¡nÃ­ dat, je to pojmenovÃ¡nÃ© oznaÄenÃ­ mÃ­sta v pamÄ›ti poÄÃ­taÄe s pÅ™iÅ™azenÃ½m datovÃ½m typem
+- nazÃ½vÃ¡ se promÄ›nnÃ¡, protoÅ¾e jejÃ­ hodnota se mÅ¯Å¾e mÄ›nit
+- pouÅ¾Ã­vÃ¡ se camelCase pro jejÃ­ pojmenovÃ¡nÃ­
+- datovÃ½ typ se uvÃ¡dÃ­ jen pÅ™i prvnÃ­m vytvoÅ™enÃ­
+- pÅ™i prvnÃ­m vytvoÅ™enÃ­ se mÅ¯Å¾e pÅ™iÅ™adit i hodnota
 
 int cislo = 5;
 cislo = 7;
@@ -60,27 +60,10 @@ int druheCislo;
 druheCislo = 5;
 System.out.println(druheCislo);
 
-String text = "Ahoj, já jsem malı programátor!";
-text = "Ahoj, já jsem programátor!";
+String text = "Ahoj, jÃ¡ jsem malÃ½ programÃ¡tor!";
+text = "Ahoj, jÃ¡ jsem programÃ¡tor!";
 System.out.println(text);
 
 String veta;
-veta = "Ahoj všichni!";
+veta = "Ahoj vÅ¡ichni!";
 System.out.println(veta);
-
-8. Matematické operace
-- co mohu dìlat s èísly (int)
-- základní matematické operace + - * /
-- rozdíl mezi = a ==
-
-int x = 5;
-int y = 7;
-int vysledek = x + y;
-System.out.println(vysledek);
-
-9. Cvièení
-- seètìte èísla 5, 8 a 3 a vısledek zobrazte pomocí funkce println()
-- odeètìte èíslo 3 od èísla 9 a vısledek zobrazte pomocí funkce println()
-- vynásobte èísla 2, 3 a 5 a vısledek zobrazte pomocí funkce println()
-- vydìlte èíslo 24 èíslem 6 a vısledek zobrazte pomocí funkce println()
- 
